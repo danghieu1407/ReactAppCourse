@@ -1,11 +1,11 @@
-// import logo from "./logo.svg";
 import "./App.css";
-import ItemList from "./components/ItemList";
+import Toggle from "./components/State/Toggle";
 
 function App() {
+
   return (
     <div>
-      <ItemList></ItemList>
+    <Toggle />
     </div>
   );
 }

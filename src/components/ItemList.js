@@ -2,9 +2,12 @@ import React from 'react';
 import { data } from '../data';
 import Item from './Header/Header';
 
-const ItemList = () => {
+const ItemList = (props) => {
+
+  
     return (
         <div className="App"> 
+        {props.children}
         {data.map((item, index) => {
           return (
             <Item
